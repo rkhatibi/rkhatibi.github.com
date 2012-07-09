@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Career SysAdmin]]></title>
-  <link href="http://blog.badapple.net/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Sysadmin | Career SysAdmin]]></title>
+  <link href="http://blog.badapple.net/blog/categories/sysadmin/atom.xml" rel="self"/>
   <link href="http://blog.badapple.net/"/>
   <updated>2012-07-09T01:20:32+00:00</updated>
   <id>http://blog.badapple.net/</id>
