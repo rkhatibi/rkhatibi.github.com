@@ -4,7 +4,7 @@
   <title><![CDATA[Career SysAdmin]]></title>
   <link href="http://blog.badapple.net/atom.xml" rel="self"/>
   <link href="http://blog.badapple.net/"/>
-  <updated>2012-07-09T02:19:48+00:00</updated>
+  <updated>2012-07-09T02:20:18+00:00</updated>
   <id>http://blog.badapple.net/</id>
   <author>
     <name><![CDATA[Ramin Khatibi]]></name>
@@ -30,14 +30,18 @@
 
 <p>I burst out laughing. Couldn&#8217;t help it. I motioned to Dan that I was taking him seriously. Temporizing I said, &#8220;I&#8217;m going to buy us another round of beers. Then I&#8217;m going to explain why that was funny and not only why this job is safe, but why the ones that will come after it are too.&#8221;</p>
 
-<p>Beers in hand, I began to enumerate a new project list of never before attempted tasks in this environment.
-  *  Inventorying backups and testing recovery procedures
-  *  Performance testing of component systems and the system as a whole
-  *  Updating the OS image and reimaging all the servers to a standard
-  *  Updating Puppet and making sure it could build all servers
-  *  Update the current monitoring which was superficial and incomplete for nearly all services
-  *  There was a tangled database replication chain to simplify as well as upgrade
-  *  Virtualization had been rolled out haphazardly and needed a serious going over</p>
+<p>Beers in hand, I began to enumerate a new project list of never before attempted tasks in this environment.</p>
+
+<ul>
+<li> Inventorying backups and testing recovery procedures</li>
+<li> Performance testing of component systems and the system as a whole</li>
+<li> Updating the OS image and reimaging all the servers to a standard</li>
+<li> Updating Puppet and making sure it could build all servers</li>
+<li> Update the current monitoring which was superficial and incomplete for nearly all services</li>
+<li> There was a tangled database replication chain to simplify as well as upgrade</li>
+<li> Virtualization had been rolled out haphazardly and needed a serious going over</li>
+</ul>
+
 
 <p>The project list, as I saw it, touched nearly every system and was enough to keep us both busy for at least a year barring any new projects or emergencies. I further explained that deploying a webapp, even a complicated one, was a waste of <em>his</em> time. He should be learning new things, fixing databases, writing code, learning Puppet, writing new monitoring. As the night wore on and the list of new work mounted Dan showed a proper weary excitement.</p>
 
