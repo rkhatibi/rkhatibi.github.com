@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://rkhatibi.github.com/atom.xml" rel="self"/>
-  <link href="http://rkhatibi.github.com/"/>
-  <updated>2012-07-09T01:01:56+00:00</updated>
-  <id>http://rkhatibi.github.com/</id>
+  <title><![CDATA[Career SysAdmin]]></title>
+  <link href="http://blog.badapple.net/atom.xml" rel="self"/>
+  <link href="http://blog.badapple.net/"/>
+  <updated>2012-07-09T01:05:27+00:00</updated>
+  <id>http://blog.badapple.net/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Ramin Khatibi]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
