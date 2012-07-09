@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sysadmin | Career SysAdmin]]></title>
   <link href="http://blog.badapple.net/blog/categories/sysadmin/atom.xml" rel="self"/>
   <link href="http://blog.badapple.net/"/>
-  <updated>2012-07-09T02:12:19+00:00</updated>
+  <updated>2012-07-09T02:17:57+00:00</updated>
   <id>http://blog.badapple.net/</id>
   <author>
     <name><![CDATA[Ramin Khatibi]]></name>
@@ -24,20 +24,20 @@
 
 <p>That night at the bar I outlined a simple plan. The first step was documentation so that I could do a release myself. The next step was verifying our deploy process was complete and ordered correctly. We would also take some time to remove steps done for apocryphal reasons or other artifacts. Next was writing code to execute each step, but still kick each part off manually. Last was tying it all together into a single command. My estimate was that it would take six or seven releases to reach deployment nirvana, but we'd gain an hour or so as each step was completed.</p>
 
-<p>There were a few reasons for going slow. Llyod Taylor has said, "Evolution, not revolution. Revolution scares people." I wanted the process to be transparent, and more importantly, not built entirely by me. It needed to be our deployment process so that everyone was comfortable using and extending it. I was only weeks into my employment and had yet attack a major pain point. Also there is nothing like fixing the thing everyone hates in order to build good relationships and establish credibility. Pushing too hard too early is usually a mistake unless system stability, or lack thereof, requires drastic measures.</p>
+<p>There were a few reasons for going slow. Llyod Taylor has said, "Evolution, not revolution. Revolution scares people." I wanted the process to be transparent, and more importantly, not built entirely by me. It needed to be our deployment process so that everyone was comfortable using and extending it. I was only weeks into my employment and had yet to attack a major pain point. Also there is nothing like fixing the thing everyone hates in order to build good relationships and establish credibility. Pushing too hard too early is usually a mistake unless system stability, or lack thereof, requires drastic measures.</p>
 
 <p>Dan nodded his head in agreement to this plan. We talked about some other problems while preparing to wrap up when he paused. Dan looked at me and asked earnestly if he'd still have a job when the deployment process was as simple as pushing a button.</p>
 
-<p>I burst out laughing. Couldn't help it. I motioned to Dan that I was taking him seriously. Temporizing with another round of beers I slapped  "I'm going to buy us another round of beers. Then I'm going to explain why that was funny and not only why this job safe, but the ones that come after it too."</p>
+<p>I burst out laughing. Couldn't help it. I motioned to Dan that I was taking him seriously. Temporizing I said, "I'm going to buy us another round of beers. Then I'm going to explain why that was funny and not only why this job is safe, but why the ones that will come after it are too."</p>
 
 <p>Beers in hand, I began to enumerate a new project list of never before attempted tasks in this environment.
- #  Inventorying backups and testing recovery procedures
- #  Performance testing of component systems and the system as a whole
- #  Updating the OS image and reimaging all the servers to a standard
- #  Updating Puppet and making sure it could build all servers
- #  Update the current monitoring which was superficial and incomplete for nearly all services
- #  There was a tangled database replication chain to simplify as well as upgrade
- #  Virtualization had been rolled out haphazardly and needed a serious going over</p>
+*  Inventorying backups and testing recovery procedures
+*  Performance testing of component systems and the system as a whole
+*  Updating the OS image and reimaging all the servers to a standard
+*  Updating Puppet and making sure it could build all servers
+*  Update the current monitoring which was superficial and incomplete for nearly all services
+*  There was a tangled database replication chain to simplify as well as upgrade
+*  Virtualization had been rolled out haphazardly and needed a serious going over</p>
 
 <p>The project list, as I saw it, touched nearly every system and was enough to keep us both busy for at least a year barring any new projects or emergencies. I further explained that deploying a webapp, even a complicated one, was a waste of <em>his</em> time. He should be learning new things, fixing databases, writing code, learning Puppet, writing new monitoring. As the night wore on and the list of new work mounted Dan showed a proper weary excitement.</p>
 
