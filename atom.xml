@@ -4,7 +4,7 @@
   <title><![CDATA[Career SysAdmin]]></title>
   <link href="http://blog.badapple.net/atom.xml" rel="self"/>
   <link href="http://blog.badapple.net/"/>
-  <updated>2012-07-09T01:20:32+00:00</updated>
+  <updated>2012-07-09T02:12:19+00:00</updated>
   <id>http://blog.badapple.net/</id>
   <author>
     <name><![CDATA[Ramin Khatibi]]></name>
@@ -18,7 +18,30 @@
     <link href="http://blog.badapple.net/blog/2010/05/15/finally-time-for-projects/"/>
     <updated>2010-05-15T01:16:00+00:00</updated>
     <id>http://blog.badapple.net/blog/2010/05/15/finally-time-for-projects</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Two weeks at the new job I sat down with my inherited jr admin, Dan. Our conversation centered prominently around the deploy process. It took five hours. It needed babysitting. It was prone to errors. The order of tasks was unclear. Worst of all everyone was scared of each deploy. It was clear that we needed to put a solid week of work into making the deployment process simpler and more reliable. The return on investment was going to be nearly instantaneous, ten hours a week is a huge time sink. Best of all we&#8217;d be easing the pressure of a perilous release process on Ops and Dev.</p>
+
+<p>Dan had been hired a few months earlier specifically to take over the deploy process. He had automated some of it, but between his lack of experience and the absence of a mandate to really address the deploy process, little progress had been made. In retrospect I believe the fear and uncertainty around the process had kept someone else from stepping in to push for a better solution.</p>
+
+<p>That night at the bar I outlined a simple plan. The first step was documentation so that I could do a release myself. The next step was verifying our deploy process was complete and ordered correctly. We would also take some time to remove steps done for apocryphal reasons or other artifacts. Next was writing code to execute each step, but still kick each part off manually. Last was tying it all together into a single command. My estimate was that it would take six or seven releases to reach deployment nirvana, but we&#8217;d gain an hour or so as each step was completed.</p>
+
+<p>There were a few reasons for going slow. Llyod Taylor has said, &#8220;Evolution, not revolution. Revolution scares people.&#8221; I wanted the process to be transparent, and more importantly, not built entirely by me. It needed to be our deployment process so that everyone was comfortable using and extending it. I was only weeks into my employment and had yet attack a major pain point. Also there is nothing like fixing the thing everyone hates in order to build good relationships and establish credibility. Pushing too hard too early is usually a mistake unless system stability, or lack thereof, requires drastic measures.</p>
+
+<p>Dan nodded his head in agreement to this plan. We talked about some other problems while preparing to wrap up when he paused. Dan looked at me and asked earnestly if he&#8217;d still have a job when the deployment process was as simple as pushing a button.</p>
+
+<p>I burst out laughing. Couldn&#8217;t help it. I motioned to Dan that I was taking him seriously. Temporizing with another round of beers I slapped  &#8220;I&#8217;m going to buy us another round of beers. Then I&#8217;m going to explain why that was funny and not only why this job safe, but the ones that come after it too.&#8221;</p>
+
+<p>Beers in hand, I began to enumerate a new project list of never before attempted tasks in this environment.
+ #  Inventorying backups and testing recovery procedures
+ #  Performance testing of component systems and the system as a whole
+ #  Updating the OS image and reimaging all the servers to a standard
+ #  Updating Puppet and making sure it could build all servers
+ #  Update the current monitoring which was superficial and incomplete for nearly all services
+ #  There was a tangled database replication chain to simplify as well as upgrade
+ #  Virtualization had been rolled out haphazardly and needed a serious going over</p>
+
+<p>The project list, as I saw it, touched nearly every system and was enough to keep us both busy for at least a year barring any new projects or emergencies. I further explained that deploying a webapp, even a complicated one, was a waste of <em>his</em> time. He should be learning new things, fixing databases, writing code, learning Puppet, writing new monitoring. As the night wore on and the list of new work mounted Dan showed a proper weary excitement.</p>
+
+<p>&#8220;Dan,&#8221; I said, &#8220;we get to do the real work after clearing this deploy bullshit off our plate!&#8221;</p>
 ]]></content>
   </entry>
   
